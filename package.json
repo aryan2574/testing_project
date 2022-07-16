@@ -1,0 +1,31 @@
+{
+	"name": "testing_project",
+	"version": "1.0.0",
+	"description": "Automate Software testing with Puppeteer",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --timeout=40000 ./tests"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aryan2574/testing_project.git"
+	},
+	"keywords": [
+		"Puppeteer",
+		"Mocha",
+		"Chai",
+		"Automation"
+	],
+	"author": "Ayush Aryan",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aryan2574/testing_project/issues"
+	},
+	"homepage": "https://github.com/aryan2574/testing_project#readme",
+	"dependencies": {
+		"chai": "^4.3.6",
+		"mocha": "^10.0.0",
+		"prettier": "^2.7.1",
+		"puppeteer": "^15.4.0"
+	}
+}
